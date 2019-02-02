@@ -1,16 +1,53 @@
+#id {
+  text-align: 
+}
+
+
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: right;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #FFDF00;
+  text-align: center;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #455877;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #455877;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
 #about {
-	text-align: center;
-}
-strong {
-	color: #7c2179;
-}
-p {
-	color: orange;
-	
-	text-align: center;
-}
-body{
-	background-image: url("H5skdtI.gif");
-
-
+  text-align: center;
 }

@@ -1,43 +1,77 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet"href="style.css" >
-	<meta charset="utf-8">
-	<title>Kendric's Website</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
-<body bgcolor="#42f4ce">
-	<!--My title of my website -->
-	<nav>
-		<a href="#about">About Me</a> |
-		
-			
-	</nav>
-	<header>
-		<div id="about">
-			<h1>About me</h1>
-			
-				<p>My name is <strong>Kendric Terry</strong></p>
-				<p>I am a 9th grader and I go to <strong>Manhattan Center For Science And Math</strong></p>
-				<p>I go to a program called <a href="https://codenext.withgoogle.com/"> Code Next</a> that teaches me to code</p>
-			</div>
+<body>
+    
 
 
-		
-	</header>
-		<main>
-			<div id="projects">
-				<h1>My projects</h1>
-				<p>At code next we do many projects</p>
-				<img src="">
+<div id="navbar">
+  <a href="#about">About me</a>
+  <a href="#projects">My Projects</a>
+  <a href="javascript:void(0)">Interests</a>
+</div>
+      <div id="about">
+        <h1>About me</h1>
+        <p>My name is Kendric Terry and I am in the 9th grade</p>
+        <p>I go to <a href="http://mcsmportal.net/">Manhattan Center For Science and Math</a></p>
+        <p>I like, math, coding, drawing, science, and rubiks's cubes  </p>
+        <p>When I grow up I want to have a job that has to do with computer science and  </p>
 
-			</div>
-		
+      </div>
+      
+
+      <div id="projects">
+        <h1>My projects</h1>
+        <p>At code next we do many projects</p>
+        <p>In the summer we coded on a website called <a href="https://glitch.com/">Glitch</a></p>
+        <p>We did projects such as making a watermelon, making an emoji, animating our emoji </p>
+        <p>The video and images below are the projects on glitch</p>
+        <video controls="controls" width="400" height="400" 
+        name="Video Name" src="Animation_kt.mov"></video>
+        <img src="wasa.png" width="400" height="400">
+        <img src="dbz.png" width="400 " height="400">
+        <p> My favorite project was the one in the video because of how it came out, and the time it took to do it</p>
+        <p>At the beginning of Team Edge we were learning the basics of javascript.</p>
+        <p>We didn't do many projects but we had to write code to solve problems</p>
+        <p>For example, we did a haunted house project in which we had to code a game that was all based off the user's decsicions </p>
+         <video controls="controls" width="400" height="400" 
+        name="Video Name" src="term.mov"></video>
+       
+
+     
+
+      </div>
+
+      <div id="intersts">
+
+        
+
+      </div>
+      
 
 
-		</main>
 
-	
 </body>
+<script>
+        window.onscroll = function() {myFunction()};
 
+          var navbar = document.getElementById("navbar");
+          var sticky = navbar.offsetTop;
+
+          function myFunction() {
+            if (window.pageYOffset >= sticky) {
+              navbar.classList.add("sticky")
+            } else {
+              navbar.classList.remove("sticky");
+            }
+          }
+
+
+      </script>
 
 </html>
