@@ -4,30 +4,42 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+
 
 </head>
+
 <body>
+  <div id="header">
+    <h2>This is Kendric's Website</h2>
+
+
+  </div>
     
+<!-- You will not be able to see this text. --> 
 
 
 <div id="navbar">
   <a href="#about">About me</a>
   <a href="#projects">My Projects</a>
   <a href="#intersts">Interests</a>
-  <a href="#co"></a>
+ 
 </div>
-      <div id="about">
+      
         <h1>About me</h1>
+     <button>Click this to change </button>
+      <div id="about">
         <p>My name is Kendric Terry and I am in the 9th grade</p>
         <p>I go to <a href="http://mcsmportal.net/">Manhattan Center For Science and Math</a></p>
+        <img id="image" src="mcsm.jpeg">
         <p>I like, math, coding, drawing, science, and rubiks's cubes  </p>
         <p>When I grow up I want to have a job that has to do with computer science and  </p>
-
-      </div>
+    </div>
+     
       
 
       <div id="projects">
-        <h1>My projects</h1>
+        <h1>My projects at Code Next</h1>
         <p>At code next we do many projects</p>
         <p>In the summer we coded on a website called <a href="https://glitch.com/">Glitch</a></p>
         <p>We did projects such as making a watermelon, making an emoji, animating our emoji </p>
@@ -36,12 +48,13 @@
         name="Video Name" src="Animation_kt.mov"></video>
         <img src="wasa.png" width="400" height="400">
         <img src="dbz.png" width="400 " height="400">
-        <p> My favorite project was the one in the video because of how it came out, and the time it took to do it</p>
-        <p>At the beginning of Team Edge we were learning the basics of javascript.</p>
-        <p>We didn't do many projects but we had to write code to solve problems</p>
-        <p>For example, we did a haunted house project in which we had to code a game that was all based off the user's decsicions </p>
-         <video controls="controls" width="400" height="400" 
-        name="Video Name" src="term.mov"></video>
+        <button></button>
+       
+       <h1>My projects at School</h1>
+       
+        
+
+
        
 
      
@@ -50,29 +63,18 @@
 
       <div id="intersts">
 
+
         
 
       </div>
-      
+     
 
 
 
 </body>
-<script>
-        window.onscroll = function() {myFunction()};
 
-          var navbar = document.getElementById("navbar");
-          var sticky = navbar.offsetTop;
+         <script src="script.js"></script>
 
-          function myFunction() {
-            if (window.pageYOffset >= sticky) {
-              navbar.classList.add("sticky")
-            } else {
-              navbar.classList.remove("sticky");
-            }
-          }
-
-
-      </script>
+    
 
 </html>

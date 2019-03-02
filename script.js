@@ -2,6 +2,7 @@ window.onscroll = function() {myFunction()};
 
 var navbar = document.getElementById("navbar");
 var sticky = navbar.offsetTop;
+var click1 = false;
 
 function myFunction() {
   if (window.pageYOffset >= sticky) {
@@ -9,5 +10,17 @@ function myFunction() {
   } else {
     navbar.classList.remove("sticky");
   }
+}
+
+$(projects).ready(function()){
+ 
+ $("button").click(function(){
+    $("p").css("color", "red");
+  });
+
+
+
+
+
 }
 

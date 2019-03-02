@@ -1,18 +1,28 @@
-#id {
-  text-align: 
+#header {
+  text-align: center;
+}
+
+
+body {
+  margin: 0;
+  font-size: 28px;
+  font-family: Impact, Charcoal, sans-serif;
+
+}
+html {
+  scroll-behavior: smooth;
 }
 
 
 .header {
   background-color: #f1f1f1;
   padding: 30px;
-  text-align: right;
+  text-align: center;
 }
 
 #navbar {
   overflow: hidden;
-  background-color: #FFDF00;
-  text-align: center;
+  background-color: #333;
 }
 
 #navbar a {
@@ -26,12 +36,12 @@
 }
 
 #navbar a:hover {
-  background-color: #455877;
+  background-color: #DAF7A6;
   color: black;
 }
 
 #navbar a.active {
-  background-color: #455877;
+  background-color: #4CAF50;
   color: white;
 }
 
@@ -49,5 +59,6 @@
   padding-top: 60px;
 }
 #about {
-  text-align: center;
+  text-shadow: #4CAF50
 }
+.mySlides {display:none;}
