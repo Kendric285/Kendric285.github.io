@@ -1,7 +1,11 @@
-
-#header {
+.show{
   text-align: center;
 }
+.header {
+  background-image: : url("gears.jpg");
+  
+}
+
 
 
 body {
@@ -9,6 +13,10 @@ body {
   font-size: 28px;
   font-family: Impact, Charcoal, sans-serif;
   text-align: center;
+
+}
+div {
+  
 
 }
 html {
